@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Ctrl + Shift + C Should Copy",
-	"description": "Intercepts Ctrl+Shift+C, blocks opening developer tools, and copies the selection to the clipboard.",
+	"description": "Intercepts Ctrl+Shift+C, blocks opening developer tools, and copies the selection to the clipboard. Icon from https://www.iconsdb.com/blue-icons/copy-icon.html.",
 	"version": "0.1.0",
 	"applications":{
 		"gecko": {
@@ -25,5 +25,8 @@
 	],
 	"permissions": [
 		"<all_urls>"
-	]
+	],
+	"icons": {
+		"256": "ctrl-shift-c-256.png"
+	}
 }
